@@ -35,40 +35,37 @@ a:active {
     border: 1px solid green;
 }
 table {
-        border-collapse: collapse; 
-        width: 80%; /* 80% of the available width */
-      }
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto; /* move table to the right */
+}
 
-      th,
-      td {
-        text-align: left;
-        padding: 8px;
-        border-bottom: 1px solid #ddd; /* Adds horizontal dividers */
-      }
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
 
-      /* Alternating row colors for the table body */
-      tbody tr:nth-child(even) {
-        background-color: #f2f2f2; /* Light grey background for even rows */
-      }
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
-      tbody tr:nth-child(odd) {
-        background-color: #ffffff; /* White background for odd rows (optional, good practice) */
-      }
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
 
-      /* Hover effect for all table body rows */
-      tbody tr:hover {
-        background-color: #ddd; /* A different, distinct background color on hover */
-        cursor: pointer; /* Changes the cursor to a pointer to indicate interactivity */
-      }
+tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
 
-      th {
-        background-color: #4caf50; /* Green background for header cells */
-        color: white; /* White text for header cells */
-      }
+th {
+    background-color: #4caf50;
+    color: white;
+}
 
-      caption {
-        font-weight: bold;
-        margin-bottom: 8px;
-      }
-
-
+caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
